@@ -1,0 +1,87 @@
+<div ngClass="wrapper">
+  <div ngClass="head">
+    <img src="https://yt3.ggpht.com/a-/AJLlDp0ElP-zhWSEJaSat9YGAMFWDuhl8c6Hxc4Kvg=s900-mo-c-c0xffffffff-rj-k-no"
+         ngClass="logo"
+         alt="картинка логотипа"
+         title="заголовок логотипа"
+    />
+    <div ngClass="head-title">
+    </div>
+    <div ngClass="head-contacts">
+      <span>+7 (499) 346-21-31</span>
+      <a>manager@pixelplus.ru</a>
+      <a>www.pixelplus.ru</a>
+    </div>
+  </div>
+  <div class="separator-line">
+    <div class="line">
+
+    </div>
+  </div>
+  <div ngClass="content">
+    <div ngClass="left">
+      <ul ngClass="navigation">
+        <li class="element" *ngFor="let elemListNav of listNavigation">
+          <a>{{elemListNav}}</a>
+        </li>
+      </ul>
+      <img src="https://www.smileexpo.ru/public/upload/news/tn_effektivnaya_bannernaya_reklama_sozdaem_za_4_shaga_14851577698756_image.jpg"
+        ngClass="advt"
+        alt="картинка рекламы"
+        title="заголовок рекламы"
+      />
+    </div>
+    <div ngClass="center">
+      <div ngClass="top-block">
+
+      </div>
+      <div ngClass="middle-block">
+        <img
+          src="https://img.artlebedev.ru/everything/elegans/elegans-logo.png"
+          class="element"
+          *ngFor="let elem of listElements"
+          alt="Картинка элемента"
+          title="Заголовок элемента"
+        />
+      </div>
+      <div ngClass="bottom-block">
+        <div ngClass="block-info">
+          {{textBlockInfo1}}
+        </div>
+        <div ngClass="block-info">
+          {{textBlockInfo2}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="separator-line">
+    <div class="line">
+
+    </div>
+  </div>
+  <div ngClass="footer">
+    <ul ngClass="paragraph-list">
+      <li  ngClass="element" *ngFor="let elemList of listFooterBlock1">
+        <a>{{elemList}}</a>
+      </li>
+    </ul>
+    <ul ngClass="rates-list">
+      <li ngClass="element" *ngFor="let elemList of listRates">
+        <a>{{elemList}}</a>
+      </li>
+    </ul>
+    <div ngClass="block3">
+      <div ngClass="sub-block">
+
+      </div>
+      <img
+        src="http://pro-mon.ru/images/izobrazheniya/fot/baner22.jpg"
+        ngClass="sub-block"
+        alt="Картинка блока"
+        title="Заголовок блока"
+      />
+    </div>
+  </div>
+</div>
+
+

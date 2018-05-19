@@ -1,0 +1,229 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 1024px;
+  margin: 0 auto;
+  padding: 25px 32px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.wrapper .head {
+  height: 108px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.wrapper .head .logo {
+  height: 108px;
+  width: 122px;
+  background: #777777;
+  position: absolute;
+  left: 0px;
+}
+
+.wrapper .head .head-title {
+  height: 108px;
+  width: 278px;
+  background: #777777;
+  display: inline-block;
+  position: absolute;
+  left: 145px;
+}
+
+.wrapper .head .head-contacts {
+  height: 108px;
+  width: 513px;
+  background: #777777;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  color: #ffffff;
+  padding: 25px 23px;
+  position: absolute;
+  left: 445px;
+}
+
+.wrapper .head .head-contacts a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.wrapper .separator-line {
+  height: 42px;
+  padding-top: 19px;
+  flex-shrink: 0;
+}
+
+.wrapper .separator-line .line {
+  width: 100%;
+  height: 1px;
+  background: #696969;
+}
+
+.wrapper .content {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-shrink: 0;
+  padding-bottom: 6px;
+}
+
+.wrapper .content .left {
+  width: 185px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.wrapper .content .left .navigation {
+  width: 100%;
+  background: #777777;
+  margin: 0 0 20px 0;
+  padding: 14px 13px;
+  list-style-type: none;
+}
+
+.wrapper .content .left .navigation .element {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.wrapper .content .left .navigation .element:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+
+.wrapper .content .left .advt {
+  height: 133px;
+  width: 100%;
+  background: #777777;
+}
+
+.wrapper .content .center {
+  width: 757px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+
+.wrapper .content .center .top-block {
+  background: #dcdcdc;
+  height: 210px;
+}
+
+.wrapper .content .center .middle-block {
+  flex-grow: 3;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 0px;
+}
+
+.wrapper .content .center .middle-block .element {
+  width: 135px;
+  height: 151px;
+  display: inline-flex;
+  flex-shrink: 0;
+  background: #dcdcdc;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.wrapper .content .center .bottom-block {
+  margin-top: 20px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wrapper .content .center .bottom-block .block-info {
+  width: 370px;
+  background: #dcdcdc;
+  padding: 17px 18px;
+}
+
+.wrapper .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-shrink: 0;
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+.wrapper .footer .paragraph-list {
+  background: #777777;
+  padding: 13px 20px;
+  width: 298px;
+  list-style-type: none;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0;
+  color: #ffffff;
+  line-height: 22px;
+}
+
+.wrapper .footer .paragraph-list .element {
+  cursor: pointer;
+  padding-left: 5px;
+}
+
+.wrapper .footer .paragraph-list .element:hover {
+  text-decoration: underline;
+}
+
+.wrapper .footer .rates-list {
+  display: flex;
+  flex-flow: column wrap;
+  background: #777777;
+  width: 297px;
+  list-style-type: none;
+  margin: 0;
+  padding: 13px 25px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.wrapper .footer .rates-list .element {
+  cursor: pointer;
+}
+
+.wrapper .footer .rates-list .element:hover {
+  text-decoration: underline;
+}
+
+.wrapper .footer .rates-list .element a:before {
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle;
+  width: 6px;
+  height: 6px;
+  margin-right: 5px;
+  background: #ffffff;
+}
+
+.wrapper .footer .block3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 309px;
+}
+
+.wrapper .footer .block3 .sub-block {
+  height: 75px;
+  background: #777777;
+}
+
